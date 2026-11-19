@@ -1,0 +1,67 @@
+# Pages CMS: https://pagescms.org
+media:
+  input: assets/images
+  output: /assets/images
+content:
+  - name: speaking_tasks
+    label: Speaking Pictures / 图片口语任务
+    type: collection
+    path: content/tasks
+    format: yaml
+    filename: '{primary}.yml'
+    view:
+      fields: [title, theme, published]
+      primary: title
+      sort: [title]
+    fields:
+      - name: title
+        label: 图片任务标题 / Title
+        type: string
+        required: true
+      - name: theme
+        label: IB 主题 / Theme
+        type: select
+        required: true
+        options:
+          values: [身份认同, 体验, 人类创造力, 社会组织, 共享地球]
+      - name: published
+        label: 发布给学生 / Published
+        type: boolean
+        default: false
+      - name: image
+        label: 图片 / Image
+        type: image
+      - name: image_alt
+        label: 图片描述（无障碍） / Image description
+        type: string
+      - name: summary
+        label: 任务介绍 / Summary
+        type: text
+      - name: questions
+        label: 引导问题 / Prompt questions
+        type: object
+        list: true
+        fields:
+          - name: heading
+            label: 标题 / Heading
+            type: string
+          - name: zh
+            label: 中文问题
+            type: text
+          - name: en
+            label: English prompt
+            type: text
+      - name: vocabulary
+        label: 推荐词汇 / Vocabulary
+        type: object
+        list: true
+        fields:
+          - name: chinese
+            label: 中文
+            type: string
+          - name: pinyin
+            label: 拼音
+            type: string
+          - name: english
+            label: English
+            type: string
