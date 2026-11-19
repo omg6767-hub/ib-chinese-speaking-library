@@ -21,18 +21,21 @@ questions:
     en: What are the benefits or challenges of this activity? Would you participate
       in it? Why or why not?
 vocabulary:
-  - chinese: 锻炼
-    pinyin: duàn liàn
-    english: exercise
-  - chinese: 健康
-    pinyin: jiàn kāng
-    english: health; healthy
   - chinese: 身份
     pinyin: shēn fèn
     english: identity
   - chinese: 广场舞
     pinyin: guǎng chǎng wǔ
     english: square dancing
+  - chinese: 次文化
+    pinyin: cì wén huà
+    english: subculture
+  - chinese: 锻炼
+    pinyin: duàn liàn
+    english: exercise
+  - chinese: 健康
+    pinyin: jiàn kāng
+    english: health; healthy
   - chinese: 强身健体
     pinyin: qiáng shēn jiàn tǐ
     english: strengthen the body and improve fitness
@@ -42,6 +45,3 @@ vocabulary:
   - chinese: 劳逸结合
     pinyin: láo yì jié hé
     english: balance work and rest
-  - chinese: 次文化
-    pinyin: cì wén huà
-    english: subculture
