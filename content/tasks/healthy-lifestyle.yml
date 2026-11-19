@@ -36,6 +36,9 @@ vocabulary:
   - chinese: 健康
     pinyin: jiàn kāng
     english: health; healthy
+  - chinese: 生活方式
+    pinyin: shēnghuófāngshì
+    english: lifestyle
   - chinese: 强身健体
     pinyin: qiáng shēn jiàn tǐ
     english: strengthen the body and improve fitness
@@ -45,6 +48,3 @@ vocabulary:
   - chinese: 劳逸结合
     pinyin: láo yì jié hé
     english: balance work and rest
-  - chinese: 生活方式
-    pinyin: shēnghuófāngshì
-    english: lifestyle
